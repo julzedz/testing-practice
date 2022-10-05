@@ -3,4 +3,4 @@ const stringLength = (string) => {
   return x;
 };
 
-console.log(stringLength('david'));
+export default stringLength();
