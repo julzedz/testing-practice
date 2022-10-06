@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "name": "testing-practice",
+  "description": "Tests for JavaScript function using Jest library. Following the AAA pattern and using the TDD approach.",
+  "version": "1.0.0",
+  "main": "task.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julzedz/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julzedz/testing-practice/issues"
+  },
+  "homepage": "https://github.com/julzedz/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
