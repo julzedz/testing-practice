@@ -1,5 +1,13 @@
-const stringLength = require('./task.js');
+const stringLength = require('./task');
 
-test('string to equal string.length', () => {
-  expect(stringLength('string')).toBe(6);
+describe('stringLength', () => {
+  test('equal to string length', () => {
+    expect(stringLength('string')).toBe(6);
+  });
+  test('error, empty string', () => {
+    expect(stringLength('')).toBe('Error: Empty String');
+  });
+  test('error, string too long', () => {
+    expect(stringLength('turkmenistan')).toBe('Error: String Too Long');
+  });
 });

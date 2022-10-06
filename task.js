@@ -1,6 +1,10 @@
 const stringLength = (string) => {
-  const x = string.length;
-  return x;
+  if (string === '') {
+    return 'Error: Empty String';
+  } if (string.length > 10) {
+    return 'Error: String Too Long';
+  }
+  return string.length;
 };
 
-export default stringLength();
+module.exports = stringLength;
